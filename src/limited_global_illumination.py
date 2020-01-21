@@ -10,4 +10,4 @@ cycles.glossy_bounces = 4
 cycles.transmission_bounces = 8
 cycles.volume_bounces = 2
 cycles.transparent_min_bounces = 8
-cycles.transparent_max_bounces = 8
+cycles.transparent_max_bounces = 834234234
