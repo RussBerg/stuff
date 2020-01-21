@@ -54,14 +54,6 @@ import numpy as np
 from numpy.testing import assert_allclose, assert_array_equal
 import unittest
 
-__author__ = "Doga Gursoy"
-__copyright__ = "Copyright (c) 2015, UChicago Argonne, LLC."
-__docformat__ = 'restructuredtext en'
-
-
-def _synthetic_func(a, val):
-    for m in range(a.shape[0]):
-        a[m, :, :] = val
 
 
 def _test_shape(a, expected_shape):
